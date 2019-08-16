@@ -28,11 +28,11 @@ public class BuildingBricksController {
 	public ResponseEntity<?> getOrders(
 			@ApiParam(value = "The Order ID", required = true) @PathVariable("orderId") String orderId) throws InvalidOrderReferenceException {
 
-		Bricks result = null;
+		Bricks briksResult = null;
 
-		result = buildingBricksService.getOrders(orderId);
+		briksResult = buildingBricksService.getOrders(orderId);
 
-		return new ResponseEntity<Bricks>(result, HttpStatus.CREATED);
+		return new ResponseEntity<Bricks>(briksResult, HttpStatus.CREATED);
 
 	}
 
