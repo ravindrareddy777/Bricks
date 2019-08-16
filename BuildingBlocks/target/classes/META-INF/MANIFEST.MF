@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: BuildingBlocks
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: raveendrareddy
+Implementation-Vendor-Id: org.buildingblocks
+Build-Jdk: 1.8.0_181
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/BuildingBlocks
+Created-By: Maven Integration for Eclipse
+Main-Class: org.acumos.workbench.projectservice.ProjectServiceApplicat
+ ion
+
